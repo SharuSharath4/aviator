@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>sharu.bet Aviator</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+<!-- 🔥 TOP HEADER -->
+<div class="header">
+    <h1 class="logo">sharu.bet</h1>
+</div>
+
+<div class="main">
+
+    <!-- LEFT PANEL -->
+    <div class="left-panel">
+        <h2>💰 Balance: ₹<span id="balance">1000</span></h2>
+
+        <input type="number" id="bet" value="100">
+
+        <button style="font-size: 20px;" onclick="startGame()">Start</button>
+        <button style="font-size: 20px;" onclick="cashOut()">Cash Out</button>
+        <p id="status">Ready to play 🚀</p>
+       <!-- ✅ NEW -->
+         <h3 id="cashoutText"></h3>
+         <input type="text" id="promoCode" placeholder="Enter Promo Code">
+        <button onclick="applyPromo()">Apply Promo</button>
+        <p>Promo code : kushreal</p>
+
+        
+    </div>
+
+    <!-- GAME AREA -->
+     
+    <div class="game-area">
+        <div id="historyBar" class="history-bar"></div>
+        
+        <canvas id="graphCanvas" width="900" height="450"></canvas>
+        <h1  id="multiplier">1.00x</h1>
+    </div>
+    <!-- 🔥 Bottom Navigation -->
+
+
+</div>
+
+<script src="/js/script.js"></script>
+</body>
+</html> 
