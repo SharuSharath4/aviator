@@ -323,6 +323,35 @@ canvas {
         overflow-x: hidden;
     }
 }
+.header {
+    margin-bottom: 0;   /* 🔥 remove gap */
+}
+.game-area {
+    padding-top: 0;     /* 🔥 remove extra top spacing */
+}
+.history-bar {
+    margin: 0;          /* 🔥 remove extra margin */
+    margin-bottom: 4px; /* small gap only */
+}
+canvas {
+    display: block;
+    margin-top: 0;      /* 🔥 remove gap */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+@media (max-width: 768px) {
+
+    .game-area {
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .main {
+        gap: 0; /* remove flex gap if any */
+    }
+}
 /* 🔥 Bottom Navigation */
 /*.bottom-nav {
     position: fixed;
