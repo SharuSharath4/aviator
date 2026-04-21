@@ -192,9 +192,9 @@ function drawCrash() {
     ctx.textAlign = "center";
 
     // 🔥 top position
-    ctx.fillText("💥 CRASH!", canvas.width / 2, 40);
-    ctx.font = window.innerWidth < 768 ? "20px Arial" : "28px Arial";
-    ctx.shadowColor = "red";
+    //ctx.fillText("💥 CRASH!", canvas.width / 2, 40);
+    //ctx.font = window.innerWidth < 768 ? "20px Arial" : "28px Arial";
+    //ctx.shadowColor = "red";
 ctx.shadowBlur = 15;
 ctx.fillText("💥 CRASH!", canvas.width / 2, 40);
 ctx.shadowBlur = 0;
