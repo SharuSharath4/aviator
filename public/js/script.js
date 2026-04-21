@@ -188,7 +188,7 @@ function drawGraph() {
 }*/
 function drawCrash() {
     ctx.fillStyle = "red";
-    ctx.font = "26px Arial";
+    ctx.font = "32px Arial";
     ctx.textAlign = "center";
 
     // 🔥 top position
