@@ -181,10 +181,23 @@ function drawGraph() {
 }
 
 // ================== CRASH ==================
-function drawCrash() {
+/*function drawCrash() {
     ctx.fillStyle = "red";
     ctx.font = "26px Arial";
     ctx.fillText("💥 CRASH!", canvas.width / 2 - 80, canvas.height / 2);
+}*/
+function drawCrash() {
+    ctx.fillStyle = "red";
+    ctx.font = "26px Arial";
+    ctx.textAlign = "center";
+
+    // 🔥 top position
+    ctx.fillText("💥 CRASH!", canvas.width / 2, 40);
+    ctx.font = window.innerWidth < 768 ? "20px Arial" : "28px Arial";
+    ctx.shadowColor = "red";
+ctx.shadowBlur = 15;
+ctx.fillText("💥 CRASH!", canvas.width / 2, 40);
+ctx.shadowBlur = 0;
 }
 
 // ================== CASHOUT ==================
